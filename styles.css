@@ -33,13 +33,13 @@ html{
 }
 
 .color1:hover .color1Text{
-    opacity: 1;
+    display: block;
     transition: 0.5s;
     
 }
 
 .color1Text{
-    opacity: 0;
+    display: none;
     font-size:24px;
     display:none;
     color:white;
@@ -57,7 +57,31 @@ html{
     background-color: #5CFFBE;
     border: 2px solid white;
     border-radius: 32px;
+    transition:0.5s;
 }
+
+.color2:hover{
+    transform: translateY(-12px);
+    transition: 0.5s;
+}
+
+.color2:hover .color2Text{
+    display: block;
+    transition: 0.5s;
+    
+}
+
+.color2Text{
+    display: none;
+    font-size:24px;
+    display:none;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    line-height:110px;
+}
+
+
 
 .color3{
     width:160px;
@@ -65,7 +89,30 @@ html{
     background-color: #FF5C5C;
     border: 2px solid white;
     border-radius: 32px;
+    transition:0.5s;
 }
+
+.color3:hover{
+    transform: translateY(-12px);
+    transition: 0.5s;
+}
+
+.color3:hover .color3Text{
+    display: block;
+    transition: 0.5s;
+    
+}
+
+.color3Text{
+    display: none;
+    font-size:24px;
+    display:none;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    line-height:110px;
+}
+
 
 .color4{
     width:160px;
@@ -73,7 +120,30 @@ html{
     background-color: #FFD55C;
     border: 2px solid white;
     border-radius: 32px;
+    transition:0.5s;
 }
+
+.color4:hover{
+    transform: translateY(-12px);
+    transition: 0.5s;
+}
+
+.color4:hover .color4Text{
+    display: block;
+    transition: 0.5s;
+    
+}
+
+.color4Text{
+    display: none;
+    font-size:24px;
+    display:none;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    line-height:110px;
+}
+
 
 .color5{
     width:160px;
@@ -81,5 +151,27 @@ html{
     background-color: #5C8DFF;
     border: 2px solid white;
     border-radius: 32px;
+    transition:0.5s;
 }
 
+
+.color5:hover{
+    transform: translateY(-12px);
+    transition: 0.5s;
+}
+
+.color5:hover .color5Text{
+    display: block;
+    transition: 0.5s;
+    
+}
+
+.color5Text{
+    display: none;
+    font-size:24px;
+    display:none;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    line-height:110px;
+}
